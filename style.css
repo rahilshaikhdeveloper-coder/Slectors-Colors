@@ -1,0 +1,44 @@
+    /* ---------------- DESIGN SYSTEM ---------------- */ 
+:root { --primary: #4f46e5; --text: #111827; --secondary-text: #6b7280; --bg: #f9fafb; 
+} 
+    /* ---------------- GLOBAL STYLING ---------------- */ 
+body { 
+    background-color: var(--bg); 
+    font-family: Arial, sans-serif; 
+    padding: 20px; 
+} 
+    /* ---------------- HEADING ---------------- */ 
+.title { 
+    color: var(--primary); 
+} 
+    /* ---------------- PARAGRAPH ---------------- */ 
+.text { 
+    color: var(--text); 
+} 
+.text-secondary { 
+    color: var(--secondary-text); 
+} 
+    /* ---------------- LINK ---------------- */ 
+.link { 
+    color: var(--primary); 
+    text-decoration: none; 
+} 
+
+    /* ---------------- BUTTON ---------------- */ 
+
+.btn { 
+    background-color: var(--primary); 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 6px;
+    margin: 4px;
+} 
+
+.btn:hover {
+    opacity: 0.5;
+    padding: 12px 22px;
+    margin: 2px;
+    
+}
